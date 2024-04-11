@@ -42,8 +42,9 @@ function App() {
   };
   return (
     <>
+    <h1> Simple React Image Gallery with Lightbox</h1>
       <div className="flex-container">
-        <h1> Simple React Image Gallery with Lightbox</h1>
+        
         {imgData.map((item, index) => (
           <>
             <img
