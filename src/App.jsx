@@ -95,14 +95,15 @@ function App() {
             </button>
             
             <Model imgurl={imgData[currentIndex].url} close="close" currentIndex ={currentIndex} fielnameTotitle={(filename) => fielnameTotitle(filename)}/>
+
+            <button type="button" onClick={nextHandler}>
+              Next{">>"}
+            </button>
             <div id="closebtn">
               <button type="button" onClick={closeHandler}>
               X
             </button>
             </div>
-            <button type="button" onClick={nextHandler}>
-              Next{">>"}
-            </button>
           </div>
 
         </>
