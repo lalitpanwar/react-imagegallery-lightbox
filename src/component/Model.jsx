@@ -1,10 +1,10 @@
-const Model = ({imgurl, currentIndex, close}) => {
+const Model = ({imgurl, currentIndex, fielnameTotitle, close}) => {
 
     return(
         <>
         <div className="flex-col">
             <img key={imgurl}src={`${imgurl}.jpg`} className="imgStyle"/>
-        <p>{currentIndex}</p>
+        <p>{fielnameTotitle(imgurl)}</p>
         </div>
         </>
     )
